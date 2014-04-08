@@ -7,22 +7,26 @@ antigen use oh-my-zsh
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle autojump
 antigen bundle autoenv
+antigen bundle brew
 antigen bundle bundler
 antigen bundle capistrano
-antigen bundle coffee
 antigen bundle copydir
 antigen bundle copyfile
 antigen bundle command-not-found
+antigen bundle dircycle
+antigen bundle forklift
 antigen bundle gem
 antigen bundle git
 antigen bundle gitfast
+antigen bundle git-extras
 antigen bundle history
-antigen bundle last-working-dir #lwd - jump to last working directory
+antigen bundle npm
+antigen bundle osx
+antigen bundle pow
+antigen bundle per-directory-history
 antigen bundle rbenv
 antigen bundle ruby
-antigen bundle rails3
-antigen bundle rails4
-antigen bundle per-directory-history
+antigen bundle rails
 antigen bundle web-search
 antigen bundle zeus
 
@@ -34,6 +38,9 @@ antigen theme dking
 
 # Zsh aliases
 # alias zshconfig="mate ~/.zshrc"
+alias sshubuntu="ssh dking@192.168.1.164"
+alias sshvps="ssh dking@107.161.21.140"
+alias devlog="tail -f log/development.log"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
